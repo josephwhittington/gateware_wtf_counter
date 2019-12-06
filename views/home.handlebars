@@ -1,0 +1,19 @@
+<div class="home my-auto container">
+    <h1 class="text-center">Gateware WTF Counter</h1>
+
+    <div class="wcontent mx-auto w-50">
+        <ul class=" list-group">
+            <li class="list-group-item">Lari: {{ lari }}</li>
+            <li class="list-group-item">Everyone else: {{ other }}</li>
+            <li class="list-group-item">Total: {{{ total }}}</li>
+        </ul>
+        <div class="d-flex justify-content-around pt-2 w-100 btn-group" role="group" aria-label="Basic example">
+            <a href="/increment" class="w-50 btn btn-success">
+                +1 student
+            </a>
+            <a href="/incrementlari" class="w-50 btn btn-primary">
+                +1 lari
+            </a>
+        </div>
+    </div>
+</div>
